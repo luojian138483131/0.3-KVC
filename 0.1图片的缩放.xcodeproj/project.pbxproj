@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC8A794D1BE5E2DD00E1E8E1 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8A794C1BE5E2DD00E1E8E1 /* Question.m */; };
+		BC8A794F1BE5E2FC00E1E8E1 /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC8A794E1BE5E2FC00E1E8E1 /* questions.plist */; };
 		F6C602D31BC8E52D00D7385B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C602D21BC8E52D00D7385B /* main.m */; };
 		F6C602D61BC8E52D00D7385B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C602D51BC8E52D00D7385B /* AppDelegate.m */; };
 		F6C602D91BC8E52D00D7385B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C602D81BC8E52D00D7385B /* ViewController.m */; };
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC8A794B1BE5E2DD00E1E8E1 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		BC8A794C1BE5E2DD00E1E8E1 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		BC8A794E1BE5E2FC00E1E8E1 /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
 		F6C602CD1BC8E52D00D7385B /* 0.1图片的缩放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0.1图片的缩放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C602D11BC8E52D00D7385B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6C602D21BC8E52D00D7385B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +90,8 @@
 				F6C602D51BC8E52D00D7385B /* AppDelegate.m */,
 				F6C602D71BC8E52D00D7385B /* ViewController.h */,
 				F6C602D81BC8E52D00D7385B /* ViewController.m */,
+				BC8A794B1BE5E2DD00E1E8E1 /* Question.h */,
+				BC8A794C1BE5E2DD00E1E8E1 /* Question.m */,
 				F6C602DA1BC8E52D00D7385B /* Main.storyboard */,
 				F6C602DD1BC8E52D00D7385B /* Images.xcassets */,
 				F6C602DF1BC8E52D00D7385B /* LaunchScreen.xib */,
@@ -105,6 +112,7 @@
 		F6C602E91BC8E52D00D7385B /* 0.1图片的缩放Tests */ = {
 			isa = PBXGroup;
 			children = (
+				BC8A794E1BE5E2FC00E1E8E1 /* questions.plist */,
 				F6C602EC1BC8E52D00D7385B /* __1_____Tests.m */,
 				F6C602EA1BC8E52D00D7385B /* Supporting Files */,
 			);
@@ -209,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8A794F1BE5E2FC00E1E8E1 /* questions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6C602D91BC8E52D00D7385B /* ViewController.m in Sources */,
+				BC8A794D1BE5E2DD00E1E8E1 /* Question.m in Sources */,
 				F6C602D61BC8E52D00D7385B /* AppDelegate.m in Sources */,
 				F6C602D31BC8E52D00D7385B /* main.m in Sources */,
 			);
@@ -299,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -348,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "0.1图片的缩放/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "0.1图片的缩放/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +428,7 @@
 				F6C602F21BC8E52D00D7385B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6C602F31BC8E52D00D7385B /* Build configuration list for PBXNativeTarget "0.1图片的缩放Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				F6C602F51BC8E52D00D7385B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
